@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Mining Clicker Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "bitkisel"})
+local Window = OrionLib:MakeWindow({Name = "Mining Clicker Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "bitkisel", IntroEnabled= false})
 --Values
 
 _G.autoTap = true
